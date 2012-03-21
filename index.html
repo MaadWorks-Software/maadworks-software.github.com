@@ -1,10 +1,89 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
     <title>MaadWorks Software</title>
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <link type="text/css" href="Styles/open.css" rel="stylesheet" />
 </head>
 <body>
+<form id="donateForm" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <p>Please donate to help Us continue to create great free software!
+        Done with PayPal we get no card info.</p>
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="54YJBVSLRV386">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+           alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+         width="1" height="1">
+</form>
+    <div class="MainContent" >
+        <div class="Header">
+            <img src="/Images/MaadWorksLogoOS.png" class="Logo" />
+        </div>
+        <div class="Body">
+
+        </div>
+        <div class="Sidebar">
+            <div id="NavBar" >
+                <img alt="nav Bar Top" src="/Images/NavBarTop.png" />
+                <table class="TreeViewStyle">
+                    <tr>
+                        <td>
+                            <a id="HomeLink" href="/Open/">Home</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a id="NewsLink" href="/Open/#" title="Current News">News</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a id="TutorialLink" href="/Open/#" title="Fun Learning">Tutorials</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="NavHeader">Projects:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a id="ORMSLink" href="/Open/MaadORMS" title="Restaurant Management System">MaadORMS</a>
+                        </td>
+                    </tr>
+
+                </table>
+                <img alt="Nav Bar bottom" src="/Images/NavBarBottom.png" />
+            </div>
+            <br />
+            <br />
+            <br />
+            <a style="position:fixed; top: 600px; left:840px;"
+               target="_blank" href="http://affiliate.godaddy.com/redirect/5FE73C646884B03E258DE05D1BF00F81737872A7CB4C72428B95353CED4203DF2F94DAF50618F53F9769CD802B01F705A249D2778278F995CE728C465F547422">
+                <img src="http://affiliate.godaddy.com/ads/5FE73C646884B03E258DE05D1BF00F81737872A7CB4C72428B95353CED4203DF2F94DAF50618F53F9769CD802B01F705A249D2778278F995CE728C465F547422"
+                     border="0" width="120" height="240" alt="Send and receive faxes from ANY Web-connected computer - Fax Thru Email" /></a>
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="Footer">
+            Maintained by Devon Weaver, MaadWorks Software&nbsp; &copy; 2012 &nbsp;&nbsp;Powered by:&nbsp;
+            <h2>GITHUB!</h2>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('.TreeViewStyle tr').hover(function () {
+                if ($(this).find('td > a').length > 0)
+                    $(this).toggleClass('Highlight');
+            });
+
+        });
+
+    </script>
+
+
+</body>
+</html>
 
 </body>
 </html>

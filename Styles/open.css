@@ -1,0 +1,255 @@
+form#donateForm
+{
+    position: fixed;
+    top: 400px;
+    left: 830px;
+    z-index: 1;
+    width: 180px;
+}
+
+body {
+    text-align: center;
+    clear: both;
+    background-color: Black;
+    color: White;
+}
+img.Logo
+{
+
+    font-family: Arial Rounded MT Bold;
+    background-color: White;
+    color: Red;
+    border-style: groove;
+    border-width: medium;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 15px;
+    border-bottom-left-radius: 10px;
+    width: 1000px;
+    float: left;
+}
+
+div.MainContent
+{
+    width: 1020px;
+}
+
+
+div.Header
+{
+}
+
+div.Body
+{
+    border-style: none;
+    border-width: thin;
+    float: left;
+    width: 816px;
+    height: 600px;
+    text-align: left;
+}
+
+div.Sidebar
+{
+    border-style: outset;
+    float: left;
+    border-top-width: thin;
+    border-bottom-right-radius: 20px;
+    width: 184px;
+    height: 800px;
+
+}
+
+div.Footer
+{
+    clear: both;
+    font-style: italic;
+    width: 804px;
+}
+
+.Boxy
+{
+    border: thin inset #FFFFFF;
+}
+
+a:link, a:visited, a:hover
+{
+    text-decoration: none;
+    font-size: 1em;
+    color: White;
+}
+
+table.TreeViewStyle
+{
+    background-color: #FFCC66;
+    width: 184px;
+}
+
+th.NavHeader
+{
+    font-size: 1.5em;
+    background-color: Gray;
+    color: #FFCC66;
+    border-radius: 13px 5px 25px 8px;
+}
+
+.Highlight
+{
+    background-color: #FF9933;
+}
+
+img.WhiteImageBG
+{
+    background-color: White;
+}
+
+img#nodeImage
+{
+    Height: 106px;
+    Width: 350px;
+}
+
+img#coffeeImage
+{
+    width: 350px;
+    height: 106px;
+}
+
+img#backboneImage
+{
+    width: 700px;;
+}
+
+img#mongoImage
+{
+    width: 250px;
+}
+
+img#jqueryImage
+{
+    width: 200px;
+    height: 132px;
+}
+
+img#jquerymobileImage
+{
+    width: 250px;
+    height: 132px;
+}
+
+div#codeBaseSection
+{
+    position: relative;
+    left: 50px;
+    width: 700px;
+    height: 400px;
+}
+
+div#afterQuilt
+{
+    position: relative;
+
+}
+
+p.caption
+{
+    font-style:italic;
+    text-align: center;
+}
+
+a.CodeBase
+{
+    float:left;
+}
+
+a.CodeBaseClear
+{
+    float: left;
+    clear: both;
+}
+
+a.CodeBaseClearR
+{
+    float: left;
+    clear: right;
+}
+/* MaadORMS*/
+
+img#MainUseCaseImage
+{
+    width: 50px;
+    height: 75px;
+}
+
+
+
+.Clock
+{
+    background-color: #333333;
+    color: #FF3300;
+    font-weight: 400;
+    font-family: 'Times New Roman' , Times, serif;
+    border: medium ridge #FFFFFF;
+}
+
+.HellDataTable
+{
+    color: Red;
+    text-align: center;
+    width: 80%;
+    margin-left: 50px;
+
+}
+
+.HellDataTable th
+{
+    color: Black;
+    background-color: Red;
+    font-size: 1.2em;
+}
+
+.LoginStatusStyle
+{
+    border-style: outset;
+    background-color: #CC0000;
+    color: #000000;
+}
+
+
+
+.LoginControl
+{
+    margin: 25px 0 0 200px;
+}
+
+.InfoPanel
+{
+    margin : 50px 50px 50px 50px;
+    background-color : Gray;
+}
+
+.NewsBox
+{
+    margin : 75px 75px 10px 75px;
+}
+
+.EditTextBox
+{
+    width: 600px;
+    height : 400px;
+}
+
+.EditCells
+{
+    text-align :left;
+    margin-left : 5px;
+}
+
+.Errors
+{
+    color :Red;
+}
+
+.RightAnswer
+{
+    background-color : Green;
+}
