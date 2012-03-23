@@ -107,6 +107,10 @@ img.WhiteImageBG
     background-color: White;
 }
 
+span.Standout {
+    font-weight: bolder;
+}
+
 /* MaadORMS*/
 
 img#MainUseCaseImage
