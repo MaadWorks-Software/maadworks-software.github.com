@@ -119,6 +119,13 @@ img#MainUseCaseImage
     height: 75px;
 }
 
+p.define {
+    border: 2px dashed white;
+}
+
+
+/* below might not be needed*/
+
 
 
 .Clock
