@@ -83,6 +83,8 @@ table.TreeViewStyle
 {
     background-color: #FFCC66;
     width: 184px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 img#NavBarTop {
