@@ -124,7 +124,8 @@ img#MainUseCaseImage
 }
 
 p.define {
-    border: 2px dashed white;
+    border-bottom: 2px dashed white;
+    border-top: 2px dashed white;
 }
 
 
